@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+  <title>  Stefanos Bourtzoudis, Software Developer</title>
+  <link rel="stylesheet" href="stylesheets/styles.css" />
+  <link rel="stylesheet" href="stylesheets/site.css" />
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body class="resume" >
+    <div class="wrapper">
+      <header>
+        <h1><a href="/">Stefanos Bourtzoudis</a></h1>
+        <p class="print-hidden">Software Developer</p>
+      </header>
+      <section id="content">
+        <h2 class="print-hidden">Resume</h2>
+
+<p class="print-hidden"><em>References available upon request. Email me at
+  <a href="mailto:stefanos.bou@gmail.com">stefanos.bou@gmail.com</a>
+</em></p>
+
+<h2>Summary</h2>
+<p>Interested in open source code, application architecture, build tooling, and design systems.</p>
+<h2>Experience</h2>
+
+<h3>Software Developer / Technical Consultant  <a href="http://www.veltio.com/">Veltio</a><small>October 2016&ndash;March 2018</small></h3>
+
+<ul>
+  <li>Participate in the development, customization and deployment of data-driven decision support systems for large, multi-national companies including Kroger and Carrefour Argentina, and partners like Deloitte and IBM.</li>
+  <li>Contribute to the development and continuous enhancement of the company's proprietary server-side framework. Shell scripts for batch processes, and custom Java and Python extensions</li>
+  <li>Serve as a technical lead to junior team members and as a link to other teams by providing assistance and training</li>
+  <li>Manage the design and implementation of Java library to allow colleagues to generate pseudonymised data in a secure and reliable manner; typical data set was over 1 billion rows, parallelization challenges needed to be overcome at the application layer, and also adopted various probability distributions to simulate real data.</li>
+  <li>Initiate a Continuous Deployment Pipeline with Jenkins to help the adoption of a Test Driven Development approach in the company</li>
+  <li>Rapidly prototype and deploy new capabilities to confirm feasibility</li>
+</ul>
+
+<h2>Open-Source Contributions (<a href="https://github.com/pulls?page=1&q=author%3Astefanosbou+is%3Apublic+is%3Aclosed+-user%3Astefanosbou&utf8=%E2%9C%93">See all</a>)</h2>
+<ul>
+  <li><a href="https://github.com/vert-x3/vertx-auth/pull/192">Vertx Auth #192</a>: Fixed bug in the InstagramAuth</li>
+  <li><a href="https://github.com/jtablesaw/tablesaw/pull/256">jTablesaw #256</a>: Pass the time/date/datetime format when setting the options for the CSV read #250</li>
+</ul>
+
+<h2>Personal Projects</h2>
+<ul>
+  <li><a href="https://github.com/stefanosbou/esc-pos-java">ESC/POS Java Library for thermal printers</a>: Java, Sockets, Mockito</li>
+  <li><a href="https://github.com/stefanosbou/jQueryCapitalizeGreek">jQuery Capitalize Greek</a>: Automatically remove accented characters (currently greek) from elements having their text content uppercase transformed through CSS</li>
+  <li><a href="https://github.com/stefanosbou/messenger-bot-framework">messenger-bot-framework</a>:  A framework to build intelligent bots for the Messenger Platform</li>
+</ul>
+
+<h2>Technologies</h2>
+<ul>
+  <li><strong>Languages:</strong> Java, JavaScript (ES6/ES2015), Python</li>
+  <li><strong>Frameworks & Libraries:</strong> Vertx, jQuery, weka, Kafka, Spark, React, RabbitMQ, scrapy</li>
+  <li><strong>Services:</strong> Amazon Web Services SQS, S3, EC2, ELB, Google Tag Manager</li>
+  <li><strong>Datastores:</strong> PostgreSQL, MySQL, MongoDB, Elasticsearch, Redis, Lucene</li>
+</ul>
+
+<h2>Education</h2>
+<h3>Aristotle University of Thessaloniki<small>Fall 2008&ndash;Winter 2015</small></h3>
+
+<p>Completed a Master's of Engineering in Electrical and Computer Engineering.
+Diploma Thesis:<em> A System for Automatic Event Detection on Social Media Data, Leveraging Sentiment Analysis</em>.
+</p>
+
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-116597420-1', 'stefanosbou.github.io');
+      ga('send', 'pageview');
+
+      // Open external links without sending the referrer
+      Array.from(document.querySelectorAll("a")).forEach(function(ele) {
+         ele.addEventListener("click", function(e) {
+            href = e.target.getAttribute('href')
+            if(href && href.hostname != window.location.hostname) {
+               e.preventDefault();
+               openWithoutReferrer(this.href);
+            }
+         })
+      });
+    </script>
+</body>
+</html>

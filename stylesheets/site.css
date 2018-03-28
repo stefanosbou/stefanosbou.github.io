@@ -1,0 +1,81 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.entries {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.entries li {
+    margin-bottom: 20px;
+}
+.entries li h2 {
+    margin-bottom: 0;
+}
+
+h3 small {
+    color: #888;
+    margin-left: 1em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer p {
+    margin: 0;
+}
+
+/*
+ * Resume styling
+ */
+
+body.resume #content ul {
+    margin-left: 0;
+    padding: 0;
+}
+
+body.resume #content li {
+}
+
+.print-visible {
+    display: none;
+}
+
+/*
+ * Activity feed
+ */
+
+#activity-feed ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#activity-feed > ul > li {
+    margin-bottom: 1.5em;
+}
+
+#activity-feed ul ul li {
+    margin-left: 1em;
+    padding-left: 20px;
+    position: relative;
+}
+
+#activity-feed time {
+    color: #999;
+}
+
+#activity-feed .commit-list img {
+    position: absolute;
+    top: 3px;
+    left: 0;
+}
+
+/*
+ * Big screens
+ */
+@media print, screen and (min-width: 1060px) {
+    .wrapper {width: 960px;}
+    #content {width: 600px;}
+}
